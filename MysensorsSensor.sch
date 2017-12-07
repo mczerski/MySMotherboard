@@ -14179,7 +14179,7 @@ at 30/07/2012 11:22:31</description>
 <part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="IC4" library="Microchip_By_element14_Batch_1" deviceset="MCP1640CT-I/CHY" device=""/>
-<part name="Q2" library="crystal" deviceset="CRYSTAL" device="CTS406"/>
+<part name="Q1" library="crystal" deviceset="CRYSTAL" device="CTS406"/>
 </parts>
 <sheets>
 <sheet>
@@ -14281,7 +14281,7 @@ at 30/07/2012 11:22:31</description>
 </instance>
 <instance part="GND13" gate="1" x="-25.4" y="78.74"/>
 <instance part="IC4" gate="A" x="0" y="99.06"/>
-<instance part="Q2" gate="G$1" x="40.64" y="30.48" rot="R90"/>
+<instance part="Q1" gate="G$1" x="40.64" y="30.48" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -14927,7 +14927,7 @@ at 30/07/2012 11:22:31</description>
 <wire x1="40.64" y1="27.94" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="1"/>
 <junction x="40.64" y="27.94"/>
 </segment>
 </net>
@@ -14940,7 +14940,7 @@ at 30/07/2012 11:22:31</description>
 <wire x1="40.64" y1="33.02" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="2"/>
+<pinref part="Q1" gate="G$1" pin="2"/>
 <junction x="40.64" y="33.02"/>
 </segment>
 </net>
@@ -15007,6 +15007,7 @@ at 30/07/2012 11:22:31</description>
 <approved hash="113,1,96.8417,82.55,D1,,,,,"/>
 <approved hash="113,1,80.5293,134.62,J1,,,,,"/>
 <approved hash="113,1,145.804,119.38,J2,,,,,"/>
+<approved hash="113,1,39.8992,30.48,Q1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
