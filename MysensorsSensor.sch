@@ -13328,6 +13328,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/BCPH_BATTERY_HOLDER/7
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="CR2032" library="Wurth_Elektronik_Electromechanic_Assembly_Spacer_rev15d" deviceset="WA-BCPH" device="_SMT_79527141"/>
 <part name="Q2" library="crystal" deviceset="FA-" device="128"/>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -13447,6 +13448,10 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/BCPH_BATTERY_HOLDER/7
 <instance part="P+10" gate="VCC" x="228.6" y="53.34"/>
 <instance part="CR2032" gate="G$1" x="-55.88" y="152.4" rot="R270"/>
 <instance part="Q2" gate="G$1" x="38.1" y="30.48" rot="R270"/>
+<instance part="R12" gate="G$1" x="154.94" y="68.58" smashed="yes">
+<attribute name="NAME" x="153.67" y="70.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="153.67" y="65.278" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13773,20 +13778,13 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/BCPH_BATTERY_HOLDER/7
 </segment>
 <segment>
 <pinref part="IC5" gate="A" pin="PD2"/>
-<pinref part="BTN" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="43.18" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 <label x="86.36" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="RFM69W" gate="A" pin="DIO0"/>
-<wire x1="233.68" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
-<label x="228.6" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="NRF24L01" gate="G$1" pin="IRQ"/>
-<wire x1="165.1" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
-<label x="152.4" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
+<label x="147.32" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -13797,8 +13795,10 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/BCPH_BATTERY_HOLDER/7
 </segment>
 <segment>
 <pinref part="IC5" gate="A" pin="PD3"/>
-<wire x1="83.82" y1="40.64" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
 <label x="86.36" y="40.64" size="1.778" layer="95"/>
+<pinref part="BTN" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="40.64" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -14237,6 +14237,20 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/BCPH_BATTERY_HOLDER/7
 <wire x1="271.78" y1="53.34" x2="279.4" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="RFM69W" gate="A" pin="DIO0"/>
+<wire x1="233.68" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="78.74" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="68.58" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="NRF24L01" gate="G$1" pin="IRQ"/>
+<wire x1="162.56" y1="68.58" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="78.74" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="78.74" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
+<junction x="162.56" y="68.58"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -14249,8 +14263,8 @@ Details see: &lt;a href="http://katalog.we-online.de/en/em/BCPH_BATTERY_HOLDER/7
 <approved hash="113,1,96.8417,82.55,D1,,,,,"/>
 <approved hash="113,1,80.5293,134.62,J1,,,,,"/>
 <approved hash="113,1,-63.5,173.744,J2,,,,,"/>
-<approved hash="113,1,-20.32,165.993,T1,,,,,"/>
-<approved hash="113,1,-54.6397,147.955,SPACER1,,,,,"/>
+<approved hash="113,1,-15.24,166.203,Q1,,,,,"/>
+<approved hash="113,1,-54.6397,147.955,CR2032,,,,,"/>
 </errors>
 </schematic>
 </drawing>
