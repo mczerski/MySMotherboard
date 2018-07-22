@@ -1,0 +1,43 @@
+Part,Value,Package,Description
+BTN,,,microswitch (e.g. KSR251GLFS https://www.ckswitches.com/media/1466/ksr.pdf)
+RST,,,microswitch (e.g. KSR251GLFS https://www.ckswitches.com/media/1466/ksr.pdf)
+X1,,,JST-PH2 connector (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)
+X2,,,10X02 PIN HEADER
+C1,10u,C0603,Capacitor
+C2,4.7u,C0603,Capacitor
+C3,10u,C0603,Capacitor
+C4,100n,C0402,Capacitor
+C5,100n,C0402,Capacitor
+C6,100n,C0402,Capacitor
+C7,100n,C0402,Capacitor
+C8,22p,C0402,Capacitor
+C9,22p,C0402,Capacitor
+C10,100n,C0402,Capacitor
+C12,10n,C0402,Capacitor
+C13,10u,C0603,Capacitor
+C14,10u,C0603,Capacitor
+CR123A,,,CR123A battery holder (https://www.challengeelectronics.com/downloads/battery_accessories/lithium/BHC-CR123A.pdf)
+CR2032,,,CR2032 battery holder (https://www.tme.eu/pl/Document/add8937505ee3ddd8664e6e70d6b380d/DS1092-10-W6L.pdf)
+D1,,CHIP-LED0805,LED
+IC1,APE8865Y5-30-HF-3,SOT25,150mA Low Noise LDO Voltage Regulator with Enable
+IC2,AT25DF512C-SSHN-B,SO-08,"Serial EEPROM 4K/ 8K , SPI bus"
+IC3,ATSHA204A,SOT23,CryptoAuthentication IC
+IC4,MCP1640CT-I/CHY,SOT95,Synchronous Boost Regulator
+IC5,ATMEGA328P-AU,TQFP32,MCU
+L1,4.7u,L3225P,"INDUCTOR, European symbol"
+NRF24L01,WIRELESS-NRF24L01,,2.4 GHz Wireless Module based on NRF24L01 chip
+RFM69W,RFM69HW,,RFM69W module
+Q1,,SOT-23,MOS FET
+Q2,,,8MHz crystal oscillator
+R1,1M,R0603,Resistor
+R2,1M,R0603,Resistor
+R3,1M,R0603,Resistor
+R4,620k,R0603,Resistor
+R5,1M,R0603,Resistor
+R6,100k,R0603,Resistor
+R7,1M,R0603,Resistor
+R8,1k,R0603,Resistor
+R9,10k,R0603,Resistor
+R10,10k,R0603,Resistor
+R11,1M,R0603,Resistor
+R12,0,R0603,Resistor
