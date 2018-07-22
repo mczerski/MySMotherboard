@@ -52,6 +52,7 @@ This is bare minimum that is required to start with this board. In this configur
  * for reset button - RST
  * for user button connected to D2 pin - BTN
  * for I2C pull-up resistors - R9, R10
+ * for external oscillator - C8, C9, Q2
 2. External flash related parts:
 R2, IC2
 WARNING: flash chips consumes a lot of uA of current so it is not suited for battery powered nodes.
