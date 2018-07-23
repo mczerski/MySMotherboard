@@ -160,8 +160,9 @@
 <wire x1="26.162" y1="-1" x2="26.162" y2="44.069" width="0" layer="20"/>
 <wire x1="26.162" y1="44.069" x2="0" y2="44.069" width="0" layer="20"/>
 <wire x1="0" y1="44.069" x2="0" y2="-1" width="0" layer="20"/>
-<text x="0.345440625" y="35.84448125" size="1.016" layer="22" font="vector" rot="MR90">1.3
-MySensors</text>
+<text x="24.8310375" y="0.711209375" size="1.016" layer="22" font="vector" rot="MR90">MySMotherboard v1.3</text>
+<text x="24.0385625" y="10.9118375" size="0.8128" layer="22" font="vector" rot="MR270">Licensed under
+CERN OHL v.1.2</text>
 </plain>
 <libraries>
 <library name="microchip">
