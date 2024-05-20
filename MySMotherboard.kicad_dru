@@ -1,0 +1,12 @@
+(version 1)
+(rule "class 0:0"
+  (condition "A.NetClass == 'default' && B.NetClass == 'Default'")
+  (constraint clearance (min 0.2032mm)))
+
+(rule "class 1:1"
+  (condition "A.NetClass == 'Power' && B.NetClass == 'Power'")
+  (constraint clearance (min 0.2032mm)))
+
+(rule "class 2:2"
+  (condition "A.NetClass == 'led power' && B.NetClass == 'led power'")
+  (constraint clearance (min 0.2032mm)))
