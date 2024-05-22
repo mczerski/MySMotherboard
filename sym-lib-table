@@ -1,4 +1,4 @@
 (sym_lib_table
-  (version 0)
-  (lib (name "MySMotherboard-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/MySMotherboard-eagle-import.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "MySMotherboard")(type "KiCad")(uri "${KIPRJMOD}/MySMotherboard.kicad_sym")(options "")(descr ""))
 )
