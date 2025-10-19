@@ -7290,16 +7290,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 134.62) (xy 201.93 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80700bde-b6ad-46bb-847a-5ebac21117c8")
-	)
-	(wire
-		(pts
 			(xy 40.64 31.75) (xy 41.91 31.75)
 		)
 		(stroke
@@ -8130,7 +8120,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 134.62) (xy 189.23 134.62)
+			(xy 186.69 134.62) (xy 196.85 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -9200,7 +9190,7 @@
 	)
 	(global_label "D2"
 		(shape input)
-		(at 201.93 134.62 0)
+		(at 200.66 128.27 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9210,7 +9200,7 @@
 		)
 		(uuid "721cee11-f071-488c-bee2-3d20692e79ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.3947 134.62 0)
+			(at 200.66 122.8053 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9387,6 +9377,28 @@
 		(uuid "9738bc45-4068-428a-a8d4-3a8d77ad7cd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5567 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D3"
+		(shape input)
+		(at 200.66 140.97 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f82a408-9517-4a41-aa9d-2afe4867c432")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 146.4347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11042,73 +11054,6 @@
 			(project "MySMotherboard"
 				(path "/005ccf98-7ec2-4789-9497-178572c51999"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 194.31 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30440749-6ee4-4f7f-b016-a10e964d8f2d")
-		(property "Reference" "JP3"
-			(at 194.31 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 194.31 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 194.31 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3028401-3a20-49bb-9605-c302da05b550")
-		)
-		(pin "1"
-			(uuid "342bb48b-7712-4efb-b18e-0ca9082abd81")
-		)
-		(instances
-			(project "MySMotherboard"
-				(path "/005ccf98-7ec2-4789-9497-178572c51999"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -15416,6 +15361,79 @@
 			(project "MySMotherboard"
 				(path "/005ccf98-7ec2-4789-9497-178572c51999"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 200.66 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb59aacd-23db-4d72-b763-4ff18c043d61")
+		(property "Reference" "JP3"
+			(at 203.2 133.9849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "be72ca2b-3366-4a7e-af15-a7c84102cc8d")
+		)
+		(pin "1"
+			(uuid "edb74c60-2f9b-4775-ab1f-38f639b7eb0f")
+		)
+		(pin "2"
+			(uuid "21375d3a-3177-4dde-b78a-ca3d35d66e60")
+		)
+		(instances
+			(project "MySMotherboard"
+				(path "/005ccf98-7ec2-4789-9497-178572c51999"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
